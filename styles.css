@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.correct {
+    background-color: #c8e6c9; /* Green for correct */
+}
+
+.incorrect {
+    background-color: #ffccbc; /* Red for incorrect */
+}
+
+#submit-btn {
+    margin-top: 20px;
+}
